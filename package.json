@@ -1,0 +1,23 @@
+{
+  "name": "hack-at-brown-23",
+  "version": "1.0.0",
+  "description": "## This is the repository for Hack and Brown 2023!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kberdos/hack-at-brown-23.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kberdos/hack-at-brown-23/issues"
+  },
+  "homepage": "https://github.com/kberdos/hack-at-brown-23#readme",
+  "dependencies": {
+    "firebase": "^9.16.0"
+  }
+}

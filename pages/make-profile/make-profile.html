@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Profile</title>
+</head>
+<body>
+    <h1>Create your profile</h1>
+    <form id = "userForm">
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+
+    <label for="email">Brown Email:</label><br>
+    <input type="text" id="email" name="email"><br>
+
+    <label for="year">Graduation Year (ex. 2026, 2024.5):</label><br>
+    <input type="text" id="year" name="year"><br>
+
+      <p>Indicate your experience level</p>
+    <input type="radio" id="fresh" name="experience" value="fresh">
+    <label for="fresh">Fresh Jam</label><br>
+    <input type="radio" id="intermediate" name="experience" value="intermediate">
+    <label for="intermediate">Intermediate Jammer</label><br>
+    <input type="radio" id="expert" name="experience" value="expert">
+    <label for="expert">Expert Jammer</label><br>
+    <button id="form_send" type="submit">Send</button>
+    </form>
+</body>
+<script src = ../../jquery/jquery.js></script> 
+<script type = "module" src = "script.js"></script>
+</html>

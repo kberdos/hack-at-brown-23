@@ -1,0 +1,50 @@
+body {
+    background-color: #F8E7D4;
+}
+.home_btn {
+    grid-column:1;
+    grid-row: 2;
+    color: #F8E7D4;
+    background-color: transparent;
+    border: none;
+    font-size: 250%;
+    font-family: Verdana;
+}
+.spark_btn{
+    grid-column:2;
+    grid-row: 2;
+    color: #F8E7D4;
+    border: none;
+    font-size: 250%;
+    background-color: transparent;
+    font-family: Verdana;
+}
+.profile_btn{
+    grid-column: 4;
+    grid-row: 1;
+    color: #523A34;
+    border: none;
+    font-size: 250%;
+    background-color: #F8E7D4;
+    font-family: Verdana;
+}
+#nav_rect {
+    background-color: #523A34;
+    width: 100vw;
+    height: 15vh;
+    margin: none;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
+#active_camp {
+    color: #523A34;
+    font-size: 300%;
+    font-family: Verdana;
+}

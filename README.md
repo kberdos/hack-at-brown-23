@@ -9,3 +9,5 @@ Hello! I'm editing on the README
 hi i am making a change
 
 whats good
+
+https://firebase.google.com/docs/firestore/quickstart
