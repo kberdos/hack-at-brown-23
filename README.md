@@ -5,3 +5,7 @@
 ### We are Taj, Rachel, Megan, and Kazuya!
 
 Hello! I'm editing on the README
+
+hi i am making a change
+
+whats good
