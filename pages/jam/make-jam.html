@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css" />
+</head>
+<body>
+  <div id = "nav_rect">
+    <div class="grid-container"> 
+      <button id = "home_btn" type = "button" onclick = "location.href='../home/index.html'">Home</button>
+      <button id = "about_btn" type = "button" onclick = "location.href='../home/about.html'">About</button>
+      <button id = "spark_btn" type = "button" onclick="location.href='make-jam.html'">Spark</button>
+      <button id = "profile_btn" type = "button" onclick = "location.href='../profile/make-profile.html'">Profile</button>
+    </div>
+  </div>
+
+  <div id="grid">
+    <div id = "green_rect_create">
+      <p class = "heading">Spark a Jam</p>
+      <div id = "userInfo"></div>
+
+      <form id = "jamForm"><br>
+        <label for="location" class="text">Location:</label><br>
+        <select name = "location" id = "location" class = "boxes">
+          <option value = "Sayles Hall">Sayles Hall</option>
+          <option value = "Main Green">Main Green</option >
+          <option value = "Simmons Quad">Simmons Quad</option>
+          <option value = "Pembroke Green">Pembroke Green</option>
+          <option value = "Wriston Quad">Wriston Quad</option>
+        </select>
+        <br><br>
+        
+        <label for="genre" class="text">Genre:</label><br>
+        <input type="text" class="boxes" id="genre" name="genre" placeholder="ex. Folk, Jazz..."><br><br>
+
+        <label for="blurb" class="text">Blurb:</label><br>
+        <input type="text" class="boxes" id="blurb" name="blurb" placeholder="Anything else to share?"><br><br>
+
+      <button id = "form_send" class="button" type="submit">Create</button>
+      </form>
+    </div>
+
+    <img id="guitar" src="https://cdn-icons-png.flaticon.com/512/197/197823.png" class="center">
+  </div>
+
+
+
+  </div>
+    
+</body>
+<script src = ../../jquery/jquery.js></script>
+<script type = "module" src = "script.js"></script>
+</html>

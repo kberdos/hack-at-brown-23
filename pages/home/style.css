@@ -1,50 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body {
     background-color: #F8E7D4;
+    margin: 0;
 }
-.home_btn {
-    grid-column:1;
-    grid-row: 2;
+#about_btn {
+    grid-column: 2;
     color: #F8E7D4;
     background-color: transparent;
     border: none;
     font-size: 250%;
-    font-family: Verdana;
+    margin:10px;
+    font-family: 'Inter', sans-serif;
 }
-.spark_btn{
-    grid-column:2;
-    grid-row: 2;
-    color: #F8E7D4;
+#about_btn:hover {
+    grid-column: 2;
+    color: #523A34;
+    background-color: #F8E7D4;
     border: none;
     font-size: 250%;
-    background-color: transparent;
-    font-family: Verdana;
+    margin: 10px;
+    font-family: 'Inter', sans-serif;
 }
-.profile_btn{
+#spark_btn{
+    grid-column: 3;
+    color: #F8E7D4;
+    background-color: transparent;
+    border: none;
+    font-size: 250%;
+    margin:10px;
+    font-family: 'Inter', sans-serif;
+}
+#spark_btn:hover{
+    grid-column: 3;
+    color: #523A34;
+    background-color: #F8E7D4;
+    border: none;
+    font-size: 250%;
+    margin:10px;
+    font-family: 'Inter', sans-serif;
+}
+#profile_btn{
     grid-column: 4;
-    grid-row: 1;
+    color: #F8E7D4;
+    background-color: transparent;
+    border: none;
+    font-size: 250%;
+    font-family: 'Inter', sans-serif;
+    margin:10px;
+}
+#profile_btn:hover{
+    grid-column: 4;
+    color: #523A34;
+    background-color: #F8E7D4;
+    border: none;
+    font-size: 250%;
+    font-family: 'Inter', sans-serif;
+    margin:10px;
+}
+#home_btn{
+    grid-column: 1;
+    color: #F8E7D4;
+    border: none;
+    font-size: 250%;
+    font-family: 'Inter', sans-serif;
+    margin:10px;
+    background-color: transparent;
+}
+#home_btn:hover{
+    grid-column: 1;
     color: #523A34;
     border: none;
     font-size: 250%;
+    font-family: 'Inter', sans-serif;
+    margin:10px;
     background-color: #F8E7D4;
-    font-family: Verdana;
 }
 #nav_rect {
     background-color: #523A34;
     width: 100vw;
-    height: 15vh;
-    margin: none;
-    top: 0;
-    left: 0;
-    position: fixed;
+    height: 72px;
 }
 .grid-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-
 }
 #active_camp {
     color: #523A34;
     font-size: 300%;
-    font-family: Verdana;
+    font-family: 'Inter', sans-serif;
+    padding-left:1.7%;
+    margin: 0;
+}
+.jam_text {
+    color: #255957;
+    font-size: 150%;
+    font-family: 'Inter', sans-serif;
+}
+#loadJams {
+    background-color: #523A34;
+    color: #F8E7D4;
+    font-size: 250%;
+    font-family: 'Inter', sans-serif;
+    margin-left: 1.7% !important;
+    margin-top:1.5%;
+}
+#jam_rect {
+    background-color: #C4C4B5;
+    width: 75%;
+    padding: 3%;
+    margin-left: 6% !important;
+    margin-right: 5% !important;
+    margin-top: 5%
+}     
+
+#campfires{
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: transparent;
+}
+.info_text {
+    color: #255957;
+    font-size: 175%;
+    font-family: 'Inter', sans-serif;
+    padding-left:2%;
+    padding-right:2%;
+}
+#nav_rect_about {
+    background-color: #523A34;
+    width: 100vw;
+    height: 10vh;
+    margin: 0;
+}
+#about {
+    color: #F8E7D4;
+    font-size: 200%;
+    font-family: 'Inter', sans-serif;
+    padding-left:1.7%;
+    padding-top:1.7%;
+    margin: 0;
+}
+#return_home {
+    background-color: #523A34;
+    color: #F8E7D4;
+    font-size: 150%;
+    font-family: 'Inter', sans-serif;
+    margin-left: 1.1%;
+    margin-top: 1%;
+    margin-bottom: 2%
+}
+.img_grid{
+    display: grid;
+    grid-template-areas: "a a";
+}
+#campfire{
+    height: 250px;
+    width: 250px;
+    margin-top: 6%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+#selfie{
+    height: 500px;
+    width: 700px;
 }

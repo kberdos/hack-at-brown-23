@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/kberdos/hack-at-brown-23#readme",
   "dependencies": {
-    "firebase": "^9.16.0"
+    "firebase": "^9.16.0",
+    "firebaseui": "^6.0.2"
   }
 }

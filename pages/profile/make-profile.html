@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css" />
+</head>
+<body>
+  <div id = "nav_rect">
+    <div class="grid-container"> 
+    <button id = "home_btn" type = "button" onclick = "location.href='../home/index.html'">Home</button>
+    <button id = "about_btn" type = "button" onclick = "location.href='../home/about.html'">About</button>
+    <button id = "spark_btn" type = "button" onclick="location.href='../jam/make-jam.html'">Spark</button>
+    <button id = "profile_btn" type = "button" onclick = "location.href='make-profile.html'">Profile</button>
+  </div>
+
+  <div id="grid">
+    <div id = "green_rect_create">
+      <p class = "heading">Create Profile</p>
+      <form id = "userForm"><br>
+        <label for="fname" class="text">First Name:</label><br>
+        <input type="text" class="boxes" id="fname" name="fname"><br><br>
+
+        <label for="lname" class="text">Last Name:</label><br>
+        <input type="text" class="boxes" id="lname" name="lname"><br><br>
+
+        <label for="email" class="text">Brown Email:</label><br>
+        <input type="email" class="boxes" id="email" name="email" placeholder="name@brown.edu"><br><br>
+
+        <label for="password" class="text">Password:</label><br>
+        <input type="password" class="boxes" id="password" name="password" placeholder="at least 6 characters"><br><br>
+
+        <label for="year" class="text">Graduation Year:</label><br>
+        <input type="text" class="boxes" id="year" name="year" placeholder="ex. 2026, 2024.5"><br><br>
+          
+        <label for="instruments" class="text">Instruments:</label><br>
+        <input type="text" class="boxes" id="instruments" name="instruments" placeholder="ex. Guitar, Piano, ..."><br><br>
+
+        <label for="genres" class="text">Preferred Genres:</label><br>
+        <input type="text" class="boxes" id="genres" name="genres" placeholder="ex. Folk, Jazz..."><br><br>
+        
+      <p class="text">Musical Experience Level:</p>
+      <input type="radio" id="fresh" name="experience" value="fresh">
+      <label for="fresh" class="level">Fresh Jam</label><br>
+      <input type="radio" id="intermediate" name="experience" value="intermediate">
+      <label for="intermediate" class="level">Intermediate Jammer</label><br>
+      <input type="radio" id="expert" name="experience" value="expert">
+      <label for="expert" class="level">Expert Jammer</label><br><br>
+
+      <button id = "form_send" class="button" type="submit">Create</button>
+      </form>
+    </div>
+    
+  
+  <div id = "green_rect_log">
+    <p class = "heading">Sign In</p><br>
+    <label for="email" class="text">Email:</label><br>
+    <input id = "txtEmail" class="boxes" type="email" placeholder="Email"><br><br>
+    <label for="password" class="text">Password:</label><br>
+    <input id = "txtPassword" class="boxes" type="password" placeholder="Password (at least 6 characters)"><br><br>
+
+    <button id="btnLogin" class="button"> Log In </button>
+    <button id="btnLogout" class="button"> Log Out </button>
+
+    <div id = "userInfo"></div>
+  </div>
+
+  <img src="https://www.freeiconspng.com/thumbs/profile-icon-png/am-a-19-year-old-multimedia-artist-student-from-manila--21.png" alt="icon" class="center">
+
+  </div>
+    
+</body>
+<script src = ../../jquery/jquery.js></script>
+<script type = "module" src = "script.js"></script>
+</html>

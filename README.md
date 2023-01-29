@@ -4,10 +4,6 @@
 
 ### We are Taj, Rachel, Megan, and Kazuya!
 
-Hello! I'm editing on the README
-
-hi i am making a change
-
-whats good
-
 https://firebase.google.com/docs/firestore/quickstart
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_grid
