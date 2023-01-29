@@ -7,7 +7,7 @@ import {
   set,
   child,
   get,
-} from "https://cdnjs.cloudflare.com/ajax/libs/firebase/9.16.0/firebase-database.min.js";
+} from "../../node_modules/firebase/firebase-database.js";
 import {
   getAuth,
   createUserWithEmailAndPassword,
@@ -101,7 +101,7 @@ $("#userForm").submit((e) => {
 $("#form_send").on("click", () => {
   // turn the form into an array
   const userData = $("#userForm").serializeArray();
-  // console.log(userData);
+  console.log(userData);
   const fname = userData[0].value;
   const lname = userData[1].value;
   const email = userData[2].value;

@@ -1,36 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
-    <link rel = "stylesheet" href = "style.css">
-</head>
-<body>
-    <div id = "nav_rect">
-        <div class="grid-container"> 
-          <button id = "home_btn" type = "button" onclick = "location.href='./'">Home</button>
-          <button id = "about_btn" type = "button" onclick = "location.href='about.html'">About</button>
-          <button id = "spark_btn" type = "button" onclick="location.href='../jam/make-jam.html'">Spark</button>
-          <button id = "profile_btn" type = "button" onclick = "location.href='../profile/make-profile.html'">Profile</button>
-        </div>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="nav_rect">
+      <div class="grid-container">
+        <button id="home_btn" type="button" onclick="location.href='./'">
+          Home
+        </button>
+        <button
+          id="about_btn"
+          type="button"
+          onclick="location.href='about.html'"
+        >
+          About
+        </button>
+        <button
+          id="spark_btn"
+          type="button"
+          onclick="location.href='../jam/make-jam.html'"
+        >
+          Spark
+        </button>
+        <button
+          id="profile_btn"
+          type="button"
+          onclick="location.href='../profile/make-profile.html'"
+        >
+          Profile
+        </button>
+      </div>
     </div>
 
-    <p class = "info_text">
-        Instructions: <br>
-        - You must have a profile and be logged in to start or join a campfire. To create a profile
-        or sign in, click on the profile button above. Then, click on the home button to see active
-        campfires and join. <br>
-        - Click on the spark button to start a campfire. You will specify the location, genre and
-        any additional notes about the campfire. Other Brown students will be able to see your jam
-        session, and if interested, join you! <br><br>
-        Spark was created at Hack@Brown 2023 by four first-time hackers! We wanted to focus on community
-        and music around the campfire. Pictured left to right: Taj, Kazuya, Rachel, Megan. <br>
-    
+    <p class="info_text">
+      Instructions: <br />
+      - You must have a profile and be logged in to start or join a campfire. To
+      create a profile or sign in, click on the profile button above. Then,
+      click on the home button to see active campfires and join. <br />
+      - Click on the spark button to start a campfire. You will specify the
+      location, genre and any additional notes about the campfire. Other Brown
+      students will be able to see your jam session, and if interested, join
+      you! <br /><br />
+      Spark was created at Hack@Brown 2023 by four first-time hackers! We wanted
+      to focus on community and music around the campfire. Pictured left to
+      right: Taj, Kazuya, Rachel, Megan. <br />
     </p>
 
-    <img id="selfie" src="/media/hackathon2023.jpeg" alt="selfie" class="center">
-</body>
-<script type = "module" src = "script.js"></script>
+    <img
+      id="selfie"
+      src="/media/hackathon2023.jpeg"
+      alt="selfie"
+      class="center"
+    />
+  </body>
+  <script src="../../jquery/jquery.js"></script>
+  <script type="module" src="script.js"></script>
 </html>

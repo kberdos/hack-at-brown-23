@@ -8,7 +8,7 @@ import {
   child,
   get,
   onValue,
-} from "https://cdnjs.cloudflare.com/ajax/libs/firebase/9.16.0/firebase-database.min.js";
+} from "../../node_modules/firebase/firebase-database.js";
 import {
   getAuth,
   createUserWithEmailAndPassword,

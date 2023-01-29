@@ -7,7 +7,7 @@ import {
   set,
   child,
   get,
-} from "https://cdnjs.cloudflare.com/ajax/libs/firebase/9.16.0/firebase-database.min.js";
+} from "../../node_modules/firebase/firebase-database.js";
 import {
   getAuth,
   createUserWithEmailAndPassword,
@@ -48,7 +48,6 @@ onAuthStateChanged(auth, (user) => {
           userdb = snapshot.val();
         } else {
           console.log("No data available");
-          $("#campfires").hide();
         }
       })
       .catch((error) => {
