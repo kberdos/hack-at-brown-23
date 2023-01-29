@@ -130,8 +130,10 @@ async function loadJams() {
 
       function makeButton() {
         console.log(`Comparing ${userdb.jam} to ${key}`);
-        if (userdb.jam == key) return `<button id = "leaveBtn">Leave</button>`;
-        if (userdb.jam == 0) return `<button id = "joinBtn"">Join</button>`;
+        if (userdb.jam == key)
+          return `<button class = "button" id = "leaveBtn">Leave</button>`;
+        if (userdb.jam == 0)
+          return `<button class = "button" id = "joinBtn"">Join</button>`;
         return ``;
       }
 
