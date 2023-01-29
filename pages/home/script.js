@@ -7,7 +7,7 @@ import {
   set,
   child,
   get,
-} from "../../node_modules/firebase/firebase-database.js";
+} from "https://cdnjs.cloudflare.com/ajax/libs/firebase/9.16.0/firebase-database.min.js";
 import {
   getAuth,
   createUserWithEmailAndPassword,
