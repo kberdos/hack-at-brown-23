@@ -4,4 +4,4 @@
 
 ### Welcome to spark, a site for the Brown community to connect and jam to music together in-person!
 
-###Created by: Taj, Rachel, Megan, and Kazuya
+Created by: Taj, Rachel, Megan, and Kazuya
